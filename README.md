@@ -10,7 +10,9 @@
 [![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 
-https://github-profile-trophy.vercel.app/?username={solikhachan2}
+
+
+<img src="https://github-profile-trophy.vercel.app/?username={solikhachan2}" />
 
 <!---
 solikhachan2/solikhachan2 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
