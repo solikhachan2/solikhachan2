@@ -12,7 +12,7 @@
 
 
 
-<img src="https://github-profile-trophy.vercel.app/?username={solikhachan2}" />
+<img src="https://github-profile-trophy.vercel.app/?solikhachan2" />
 
 <!---
 solikhachan2/solikhachan2 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
