@@ -19,6 +19,9 @@
 <p align='center'>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=solikhachan2&theme=dark" width="100%" />
 </p>
+<p align='center'>
+  <img src='https://github-profile-trophy.vercel.app/?username=solikhachan2&theme=dark' width="100" />
+</p>
 
 <!---
 solikhachan2/solikhachan2 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
