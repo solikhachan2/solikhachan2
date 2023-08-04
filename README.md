@@ -36,5 +36,5 @@ You can click the Preview link to take a look at your changes.
 <p align="center">
 <!--   <a href=""><img width="48%" src="https://github-profile-trophy.vercel.app/?username=solikhachan2&theme=radical"></a> -->
   <a href=""><img width="43%" src="https://github-readme-streak-stats.herokuapp.com/?user=solikhachan2&theme=dark"></a>
-  <a href="https://github.com/solikhachan2"><img width="50%" src="https://github-profile-trophy.vercel.app/?username=solikhachan2&theme=gruvbox"></a>
+  <a href="https://github.com/solikhachan2"><img width="50%" src="https://github-profile-trophy.vercel.app/?username=solikhachan2&theme=tokyonight"></a>
 </p>
