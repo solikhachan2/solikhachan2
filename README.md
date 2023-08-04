@@ -34,6 +34,7 @@ You can click the Preview link to take a look at your changes.
     <img id="preview" src="https://komarev.com/ghpvc/?username=solikhachan2&color=grey">
 </p> -->
 <p align="center">
-  <a href=""><img width="48%" src="https://github-profile-trophy.vercel.app/?username=solikhachan2&theme=radical"></a>
+<!--   <a href=""><img width="48%" src="https://github-profile-trophy.vercel.app/?username=solikhachan2&theme=radical"></a> -->
   <a href=""><img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=solikhachan2&theme=dark"></a>
+  <a href="https://github.com/solikhachan2"><img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=solikhachan2&theme=dark&hide=html,css,cmake&layout=compact&langs_count=5&bg_color=101010&hide_title=true"></a>
 </p>
