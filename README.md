@@ -35,4 +35,5 @@ You can click the Preview link to take a look at your changes.
 </p> -->
 <p align="center">
    <img src="https://github-readme-streak-stats.herokuapp.com/?user=solikhachan2&theme=dark" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=solikhachan2&theme=radical" width="100%" />
 </p>
