@@ -30,9 +30,6 @@ You can click the Preview link to take a look at your changes.
     <img src="https://readme-typing-svg.herokuapp.com/?lines=Lifeeeee;is+too+short;to+write+bad+code!&font=Fira%20Code&color=%FFFFFF&center=true&width=280&height=50">
 </p>
 <br>
-<!-- <p align="center">
-    <img id="preview" src="https://komarev.com/ghpvc/?username=solikhachan2&color=grey">
-</p> -->
 <p align="center">
 <!--   <a href=""><img width="48%" src="https://github-profile-trophy.vercel.app/?username=solikhachan2&theme=radical"></a> -->
   <a href=""><img width="43%" src="https://github-readme-streak-stats.herokuapp.com/?user=solikhachan2&theme=dark"></a>
