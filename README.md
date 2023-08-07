@@ -30,7 +30,7 @@ You can click the Preview link to take a look at your changes.
 ### Vibing to <img alt="Spotify" height="17" width="17" src="https://www.freepnglogos.com/uploads/spotify-logo-png/file-spotify-logo-png-4.png"> . . .
 <div align="center">
 
-[![Spotify](https://open.spotify.com/track/2eVjNs1BBg6ZXIE8dmxb9S?si=dcb57305ed444e70)](https://open.spotify.com/track/2eVjNs1BBg6ZXIE8dmxb9S?si=c9eb9e8fecf64e06)
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=312tyfycdkeipygxnstseuabm2vy&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)](https://github.com/kittinan/spotify-github-profile)
 
 </div>
 
