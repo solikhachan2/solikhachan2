@@ -30,7 +30,7 @@ You can click the Preview link to take a look at your changes.
 ### Vibing to <img alt="Spotify" height="17" width="17" src="https://www.freepnglogos.com/uploads/spotify-logo-png/file-spotify-logo-png-4.png"> . . .
 <div align="center">
 
-[![Spotify](https://novatorem-rho-dusky.vercel.app/api/spotify)](https://open.spotify.com/user/31ecnstfkylmalgb7pbte46pekpi)
+[![Spotify](https://novatorem-rho-dusky.vercel.app/api/spotify)](https://open.spotify.com/track/2eVjNs1BBg6ZXIE8dmxb9S?si=c9eb9e8fecf64e06)
 
 </div>
 
