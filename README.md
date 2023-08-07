@@ -26,6 +26,7 @@ You can click the Preview link to take a look at your changes.
 <p align="center">
     <h1 align="center">&emsp;Hey! I'm Solikha&emsp;</h1>
 </p>
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=312tyfycdkeipygxnstseuabm2vy&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)](https://github.com/kittinan/spotify-github-profile)
 <br>
 <p align="center">
 <!--   <a href=""><img width="48%" src="https://github-profile-trophy.vercel.app/?username=solikhachan2&theme=radical"></a> -->
