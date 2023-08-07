@@ -32,6 +32,8 @@ You can click the Preview link to take a look at your changes.
 
 [![Spotify](https://novatorem-rho-dusky.vercel.app/api/spotify)](https://open.spotify.com/user/31ecnstfkylmalgb7pbte46pekpi)
 
+</div>
+
 <br>
 <p align="center">
 <!--   <a href=""><img width="48%" src="https://github-profile-trophy.vercel.app/?username=solikhachan2&theme=radical"></a> -->
