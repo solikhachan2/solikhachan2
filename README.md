@@ -48,3 +48,4 @@ You can click the Preview link to take a look at your changes.
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=solikhachan2&theme=burnt-neon&hide_border=true&exclude_days=Sun%2CSat)](https://git.io/streak-stats)
 [![GitHub Streak](https://streak-stats.demolab.com?user=solikhachan2&theme=yellowdark&exclude_days=Sun%2CSat)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=solikhachan2&theme=yellowdark&mode=weekly&exclude_days=Sun%2CSat)](https://git.io/streak-stats)
