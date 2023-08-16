@@ -43,8 +43,8 @@ You can click the Preview link to take a look at your changes.
 <!--   <a href=""><img width="43%" src="https://github-readme-streak-stats.herokuapp.com/?user=solikhachan2&theme=dark"></a> -->
   <a href="https://github.com/solikhachan2"><img width="50%" src="https://github-profile-trophy.vercel.app/?username=solikhachan2&theme=onedark"></a>
 
+  [![GitHub Streak](https://streak-stats.demolab.com?user=solikhachan2&theme=dark&exclude_days=Sun%2CSat)](https://git.io/streak-stats)
+
   
 </p>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=solikhachan2&theme=darkn&hide_border=true&exclude_days=Sun%2CSat)](https://git.io/streak-stats)
 
