@@ -21,17 +21,21 @@ solikhachan2/solikhachan2 is a ✨ special ✨ repository because its `README.md
 You can click the Preview link to take a look at your changes.
 --->
 
-<img align="left" src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="30%" style="display:inline;"><img align="right" src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="30%" style="display:inline;">
+<!---<img align="left" src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="30%" style="display:inline;"><img align="right" src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="30%" style="display:inline;">
 <br>
-<p align="center">
+ <p align="center">
     <h1 align="center">&emsp;Hey! I'm Solikha&emsp;</h1>
-</p>
+</p> --->
+
 <div align="center">
 
  <!--- [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=312tyfycdkeipygxnstseuabm2vy&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)](https://github.com/kittinan/spotify-github-profile) --->
 
 <!--  ![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=312tyfycdkeipygxnstseuabm2vy&unique={true|1|on|yes}) --->
 
+| 🎵 Now Playing                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------ |
+| <a href="https://status.nmoo.dev/now-playing?open"><img src="https://status.nmoo.dev/now-playing" width="540" height="64"></a> |
 </div>
 <br>
 <p align="center">
