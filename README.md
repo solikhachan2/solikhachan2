@@ -40,7 +40,8 @@ You can click the Preview link to take a look at your changes.
 <br>
 <p align="center">
 <!--   <a href=""><img width="48%" src="https://github-profile-trophy.vercel.app/?username=solikhachan2&theme=radical"></a> -->
-  <a href="https://github.com/solikhachan2"><img width="43%" src="https://streak-stats.demolab.com?user=solikhachan2&theme=dark&exclude_days=Sun%2CSat"></a>
-  <a href="https://github.com/solikhachan2"><img width="50%" src="https://github-profile-trophy.vercel.app/?username=solikhachan2&theme=onedark"></a>
+  <a href="https://github.com/solikhachan2"><img width="51%" src="https://streak-stats.demolab.com?user=solikhachan2&theme=dark&exclude_days=Sun%2CSat"></a>
+<!--   <a href="https://github.com/solikhachan2"><img width="50%" src="https://github-profile-trophy.vercel.app/?username=solikhachan2&theme=onedark"></a> -->
+  <a href="https://github.com/solikhachan2"><img width="30%" src="https://github-profile-trophy.vercel.app/?username=solikhachan2&row=2&column=3"></a>
 </p>
 
