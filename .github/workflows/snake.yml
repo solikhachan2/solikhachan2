@@ -23,16 +23,16 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+# CRITICAL: Add permissions here
+permissions:
+  contents: write
+
 jobs:
   generate:
     name: Generate Snake Animation
     runs-on: ubuntu-latest
     timeout-minutes: 10
     
-    permissions:
-      contents: write
-      actions: read
-      
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -46,7 +46,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Verify output files
         run: |
@@ -58,14 +58,12 @@ jobs:
           ls -lh dist/
           
       - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          target_branch: output
-          build_dir: dist
-          commit_message: "Update snake animations"
-          jekyll: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "Update snake animations [skip ci]"
           
       - name: Workflow summary
         if: success()
@@ -77,3 +75,4 @@ jobs:
           echo "### 📊 View Your Snake Animation" >> $GITHUB_STEP_SUMMARY
           echo "- **Light Mode:** \`https://raw.githubusercontent.com/${{ github.repository }}/output/github-contribution-grid-snake.svg\`" >> $GITHUB_STEP_SUMMARY
           echo "- **Dark Mode:** \`https://raw.githubusercontent.com/${{ github.repository }}/output/github-contribution-grid-snake-dark.svg\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Ocean GIF:** \`https://raw.githubusercontent.com/${{ github.repository }}/output/ocean.gif\`" >> $GITHUB_STEP_SUMMARY
