@@ -1,0 +1,78 @@
+name: Generate GitHub Contribution Snake
+
+on:
+  # Run automatically every 24 hours at midnight UTC
+  schedule:
+    - cron: "0 0 * * *"
+  
+  # Allow manual workflow dispatch
+  workflow_dispatch:
+  
+  # Run on push to main branch
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+      - 'docs/**'
+      - '.github/**'
+      - '!.github/workflows/snake.yml'
+
+# Prevent concurrent runs
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    name: Generate Snake Animation
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Generate snake animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Verify output files
+        run: |
+          if [ ! -f "dist/github-contribution-grid-snake.svg" ]; then
+            echo "Error: Snake SVG file was not generated"
+            exit 1
+          fi
+          echo "✓ Snake animation files generated successfully"
+          ls -lh dist/
+          
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "Update snake animations"
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Workflow summary
+        if: success()
+        run: |
+          echo "## ✅ Snake Animation Generated Successfully" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "The snake animations have been updated and deployed to the \`output\` branch." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📊 View Your Snake Animation" >> $GITHUB_STEP_SUMMARY
+          echo "- **Light Mode:** \`https://raw.githubusercontent.com/${{ github.repository }}/output/github-contribution-grid-snake.svg\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Dark Mode:** \`https://raw.githubusercontent.com/${{ github.repository }}/output/github-contribution-grid-snake-dark.svg\`" >> $GITHUB_STEP_SUMMARY
